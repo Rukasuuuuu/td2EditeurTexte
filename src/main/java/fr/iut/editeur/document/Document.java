@@ -46,6 +46,6 @@ public class Document {
 
     public void clear(){
         String sModif = "";
-        remplacer(0, texte.length()-1, sModif );
+        remplacer(0, texte.length(), sModif );
     }
 }
