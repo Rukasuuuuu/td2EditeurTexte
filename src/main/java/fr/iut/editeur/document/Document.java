@@ -43,4 +43,9 @@ public class Document {
         String sModif = "";
         remplacer(start, end, sModif);
     }
+
+    public void clear(){
+        String sModif = "";
+        remplacer(0, texte.length()-1, sModif );
+    }
 }
